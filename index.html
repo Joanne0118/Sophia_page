@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 10px;
+        }
+        .banner {
+            height: 300px;
+            background-image: url("file:///D:/Sophia_wangye/beijing/bj1.jpg"); 
+            background-size: cover;
+            background-position: center;
+        }
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .portfolio-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">我的资料</a></li>
+                <li><a href="#">我的爱好</a></li>
+                <li><a href="#">我的大学</a></li>
+                <li><a href="#">在线留言</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="banner"></section>
+    <section class="personal-info">
+        <div class="profile">
+            <img src="file:///D:/Sophia_wangye/touxiang/tx1.jpg" alt="Profile Picture">
+            <h2>姓名: Sophia</h2>
+            <p>性别: 女</p>
+            <p>年龄: 18</p>
+            <p>籍贯: 北京</p>
+            <p>专业: 计算机</p>
+            <p>邮箱: 2078096180@qq.com</p>
+        </div>
+    </section>
+    <section class="resume">
+        <h2>个人简历</h2>
+        <p>描述你的个人简历和经历...</p>
+    </section>
+    <section class="portfolio">
+        <h2>作品展示</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="file:///D:/Sophia_wangye/works/pic1.jpg" alt="Work 1">
+            </div>
+            <div class="portfolio-item">
+                <img src="file:///D:/Sophia_wangye/works/pic2.jpg" alt="Work 2">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>个人网页</p>
+    </footer>
+</body>
+</html>
